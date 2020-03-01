@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Intogen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <!-- css -->
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Theme skin -->
+  <link href="css/default.css" rel="stylesheet" />
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="ico/favicon.png" />
+</head>
+
+<body onLoad="onLoad()">
+  <!-- start header -->
+  <header>
+    <div class="container">
+      <div class="row nomargin">
+        <div class="span12">
+          <div class="headnav">
+          </div>
+        </div>
+      </div>
+
+      <!--top left logo-->
+
+      <div class="row">
+        <div class="span3">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="" class="logo" /></a>
+          </div>
+        </div>
+        <div class="span9">
+          <div class="navbar navbar-static-top">
+            <div class="navigation">
+              <nav>
+                <ul class="nav topnav">
+                  <li class="">
+                    <a href="index.html">Home </a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">Visualization <i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="Nationality.html">Nationality</a></li>
+                      <li><a href="Education.html">Education degree</a></li>
+                    </ul>
+                  </li>
+                  <li class="active">
+                    <a href="Find your type.html">Find your type</a>
+                  </li>
+                  <li class="">
+                    <a href="About us.html">About us</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- end navigation -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end header -->
+  <section id="inner-headline">
+    <div class="container">
+      <div class="row">
+        <div class="span4">
+          <div class="inner-heading">
+            <h2>Find your type</h2>
+          </div>
+        </div>
+        <div class="span8">
+          <ul class="breadcrumb">
+            <li><a href="index.html"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
+            <li><a href="Find your type.html">Find your type</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="content">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <article>
+            <div class="top-wrapper">
+              <div class="post-heading">
+                <h3><a href="#">Kolb’s Learning Style Questionnaire</a></h3>
+                <h8>Questions are based on David Kolb's research. </br>
+
+                    This questionnaire is designed to find out your preferred learning styles(s) as an adult. Over the years, you have probably developed learning habits that help you benefit more from some experiences than from others.</br>
+
+                    This questionnaire will probably take you about 5-7 minutes to complete. The accuracy of your results depends on how honest you are. There are no right or wrong answers. If you agree  more than you disagree with a statement, place a tick in the box to the left of the question. If you disagree more than you agree, leave the box blank. If you find yourself wondering which situation to think of when answering a question, just think about how you are when you are working with people. Go with your first gut reaction instead of over-thinking your response.</h8>
+              </div></br>
+              <!-- Questions -->
+              <form>
+                <label class="customcheck" id="labelQuestion1">
+                  <input type="checkbox" name="quetion" value="1" id="question1" required />
+                  <span class="checkmark"></span>
+                  I have strong beliefs about what is right and wrong, good and bad.
+                </label>
+                <label class="customcheck" id="labelQuestion2">
+                  <input type="checkbox" name="quetion" value="2" id="question2" required/>
+                  <span class="checkmark"></span>
+                  I often act without considering the possible consequences.
+                </label>
+                <label class="customcheck" id="labelQuestion3">
+                  <input type="checkbox" name="quetion" value="3" id="question3" required/>
+                  <span class="checkmark"></span>
+                  I have a reputation for saying what I think, simply and directly.
+                </label>
+                <label class="customcheck" id="labelQuestion4">
+                  <input type="checkbox" name="quetion" value="4" id="question4" required/>
+                  <span class="checkmark"></span>
+                  I often find that actions based on feelings are as sound as those based on careful thought and
+                  analysis.
+                </label>
+                <label class="customcheck" id="labelQuestion5">
+                  <input type="checkbox" name="quetion" value="5" id="question5" required/>
+                  <span class="checkmark"></span>
+                  I like the sort of work where I have time for thorough preparation and implementation.
+                </label>
+                <label class="customcheck" id="labelQuestion6">
+                  <input type="checkbox" name="quetion" value="6" id="question6" required/>
+                  <span class="checkmark"></span>
+                  I regularly question people about their basic assumptions.
+                </label>
+                <label class="customcheck" id="labelQuestion7">
+                  <input type="checkbox" name="quetion" value="7" id="question7" required/>
+                  <span class="checkmark"></span>
+                  When I hear about a new idea or approach, I immediately start working out how to apply it in
+                  practice.
+                </label>
+                <label class="customcheck" id="labelQuestion8">
+                  <input type="checkbox" name="quetion" value="8" id="question8" required/>
+                  <span class="checkmark"></span>
+                  I get on best with logical, analytical people and less well with spontaneous, ‘irrational’
+                  people.
+                </label>
+                <label class="customcheck" id="labelQuestion9">
+                  <input type="checkbox" name="quetion" value="9" id="question9" required/>
+                  <span class="checkmark"></span>
+                  I take care over how I interpret data and avoid jumping to conclusions.
+                </label>
+                <label class="customcheck" id="labelQuestion10">
+                  <input type="checkbox" name="quetion" value="10" id="question10" required/>
+                  <span class="checkmark"></span>
+                  I am attracted more to novel, unusual ideas than to practical ones.
+                </label>
+                <label class="customcheck" id="labelQuestion11">
+                  <input type="checkbox" name="quetion" value="11" id="question11" required/>
+                  <span class="checkmark"></span>
+                  I like to relate my actions to a general principle, standard or belief.
+                </label>
+                <label class="customcheck" id="labelQuestion12">
+                  <input type="checkbox" name="quetion" value="12" id="question12" required/>
+                  <span class="checkmark"></span>
+                  In discussions, I like to get straight to the point.
+                </label>
+                <label class="customcheck" id="labelQuestion13">
+                  <input type="checkbox" name="quetion" value="13" id="question13" required/>
+                  <span class="checkmark"></span>
+                  I enjoy fun-loving spontaneous people.
+                </label>
+                <label class="customcheck" id="labelQuestion14">
+                  <input type="checkbox" name="quetion" value="14" id="question14" required/>
+                  <span class="checkmark"></span>
+                  I pay careful attention to detail before coming to a conclusion.
+                </label>
+                <label class="customcheck" id="labelQuestion15">
+                  <input type="checkbox" name="quetion" value="15" id="question15" required/>
+                  <span class="checkmark"></span>
+                  I find it difficult to produce ideas on impulse.
+                </label>
+                <label class="customcheck" id="labelQuestion16">
+                  <input type="checkbox" name="quetion" value="16" id="question16" required/>
+                  <span class="checkmark"></span>
+                  In discussions, I enjoy watching the plotting and scheming of the other participants.
+                </label>
+                <label class="customcheck" id="labelQuestion17">
+                  <input type="checkbox" name="quetion" value="17" id="question17" required/>
+                  <span class="checkmark"></span>
+                  I prefer to have as many sources of information as possible – the more information to think over
+                  the better.
+                </label>
+                <label class="customcheck" id="labelQuestion18">
+                  <input type="checkbox" name="quetion" value="18" id="question18" required/>
+                  <span class="checkmark"></span>
+                  I prefer to respond to events in a spontaneous, flexible way rather than plan things out in
+                  advance.
+                </label>
+                <label class="customcheck" id="labelQuestion19">
+                  <input type="checkbox" name="quetion" value="19" id="question19" required/>
+                  <span class="checkmark"></span>
+                  I tend to be attracted to techniques such as flow charts, contingency plans etc.
+                </label>
+                <label class="customcheck" id="labelQuestion20">
+                  <input type="checkbox" name="quetion" value="20" id="question20" required/>
+                  <span class="checkmark"></span>
+                  I often get irritated by people who want to rush things.
+                </label>
+                <label class="customcheck" id="labelQuestion21">
+                  <input type="checkbox" name="quetion" value="21" id="question21" required/>
+                  <span class="checkmark"></span>
+                  It is more important to enjoy the present moment than to think about he past or future.
+                </label>
+                <label class="customcheck" id="labelQuestion22">
+                  <input type="checkbox" name="quetion" value="22" id="question22" required/>
+                  <span class="checkmark"></span>
+                  I tend to be a perfectionist.
+                </label>
+                <label class="customcheck" id="labelQuestion23">
+                  <input type="checkbox" name="quetion" value="23" id="question23" required/>
+                  <span class="checkmark"></span>
+                  In meetings, I put forward practical, realistic ideas.
+                </label>
+                <label class="customcheck" id="labelQuestion24">
+                  <input type="checkbox" name="quetion" value="24" id="question24" required/>
+                  <span class="checkmark"></span>
+                  More often than not, rules are there to be broken.
+                </label>
+                <label class="customcheck" id="labelQuestion25">
+                  <input type="checkbox" name="quetion" value="25" id="question25" required/>
+                  <span class="checkmark"></span>
+                  I prefer to stand back from a situation and consider all the perspectives.
+                </label>
+                <label class="customcheck" id="labelQuestion26">
+                  <input type="checkbox" name="quetion" value="26" id="question26" required/>
+                  <span class="checkmark"></span>
+                  I think written reports should be short and to the point.
+                </label>
+                <label class="customcheck" id="labelQuestion27">
+                  <input type="checkbox" name="quetion" value="27" id="question27" required/>
+                  <span class="checkmark"></span>
+                  I believe that rational, logical thinking should win the day.
+                </label>
+                <label class="customcheck" id="labelQuestion28">
+                  <input type="checkbox" name="quetion" value="28" id="question28" required/>
+                  <span class="checkmark"></span>
+                  In discussions, I get impatient with irrelevant issues and digressions.
+                </label>
+                <label class="customcheck" id="labelQuestion29">
+                  <input type="checkbox" name="quetion" value="29" id="question29" required/>
+                  <span class="checkmark"></span>
+                  If I have a report to write, I tend to produce lots of drafts before settling on the final
+                  version.
+                </label>
+                <label class="customcheck" id="labelQuestion30">
+                  <input type="checkbox" name="quetion" value="30" id="question30" required/>
+                  <span class="checkmark"></span>
+                  I enjoy being the one that talks a lot.
+                </label>
+                <label class="customcheck" id="labelQuestion31">
+                  <input type="checkbox" name="quetion" value="31" id="question31" required />
+                  <span class="checkmark"></span>
+                  In discussions, I often find I am a realist, keeping people to the point and avoiding wild
+                  speculations.
+                </label>
+                <label class="customcheck" id="labelQuestion32">
+                  <input type="checkbox" name="quetion" value="32" id="question32" required/>
+                  <span class="checkmark"></span>
+                  In discussions with people I often find I am the most dispassionate and objective.
+                </label>
+                <label class="customcheck" id="labelQuestion33">
+                  <input type="checkbox" name="quetion" value="33" id="question33" required/>
+                  <span class="checkmark"></span>
+                  In discussions I’m more likely to adopt a ‘low profile’ than to take the lead and do most of the
+                  talking.
+                </label>
+                <label class="customcheck" id="labelQuestion34">
+                  <input type="checkbox" name="quetion" value="34" id="question34" required/>
+                  <span class="checkmark"></span>
+                  On balance, I do the listening rather than the talking.
+                </label>
+                <label class="customcheck" id="labelQuestion35">
+                  <input type="checkbox" name="quetion" value="35" id="question35" required/>
+                  <span class="checkmark"></span>
+                  I tend to be tough on people who find it difficult to adopt a logical approach.
+                </label>
+                <label class="customcheck" id="labelQuestion36">
+                  <input type="checkbox" name="quetion" value="36" id="question36" required/>
+                  <span class="checkmark"></span>
+                  Most times I believe the end justifies the means.
+                </label>
+                <label class="customcheck" id="labelQuestion37">
+                  <input type="checkbox" name="quetion" value="37" id="question37" required/>
+                  <span class="checkmark"></span>
+                  I find the formality of having specific objectives and plans stifling.</label>
+                <label class="customcheck" id="labelQuestion38">
+                  <input type="checkbox" name="quetion" value="38" id="question38" required/>
+                  <span class="checkmark"></span>
+                  I do whatever is practical to get the job done.
+                </label>
+                <label class="customcheck" id="labelQuestion39">
+                  <input type="checkbox" name="quetion" value="39" id="question39" required/>
+                  <span class="checkmark"></span>
+                  I quickly get bored with methodical, detailed work.
+                </label>
+                <label class="customcheck" id="labelQuestion40">
+                  <input type="checkbox" name="quetion" value="40" id="question40" required/>
+                  <span class="checkmark"></span>
+                  I like meetings to be run on methodical lines, sticking to laid down agenda.
+                </label>
+                <div>What are you currently studying?</div>
+                <label class="customradio">
+                  <input type="radio" name="degree" value="bachelors" id="bachelorRadBtn" onClick="bachelorRadClicked()"/> Bachelors
+                  <span class="radiomark"></span>
+                </label>
+                <label class="customradio">
+                  <input type="radio" name="degree" value="masters" id="masterRadBtn" onClick="masterRadClicked()"/> Masters
+                  <span class="radiomark"></span>
+                </label>
+                <div>Please choose your study program.</div>
+                <select name="program" id="studyProgCmbBox" onchange="studyProgValChanged()">
+                  <option value="" selected>Major </option>
+                </select>
+                <div>Please choose a course which you liked the most./
+                  Please select approximate gpa/grade which you have achieved for the above answered course.
+                </div>
+                <select name="liked" id="likedCourseCmbBox">
+                  <option value="" selected>Choose</option>
+                </select>
+                GPA : 
+                <select name="likedgpa" id="likedGpa">
+                  <option value="1" >1</option>
+                  <option value="2" >2</option>
+                  <option value="3" >3</option>
+                  <option value="4" >4</option>
+                  <option value="5" >5</option>
+                </select>
+                <div>Please choose a course which you disliked the most./
+                  Please select approximate gpa/grade which you have achieved for the above answered course.
+                </div>
+                <select name="disliked" id="dislikedCourseCmbBox">
+                  <option value="" selected>Choose</option>
+                </select>
+                GPA : 
+                <select name="dislikedgpa" id="dislikedGpa">
+                  <option value="5" >5</option>
+                  <option value="4" >4</option>
+                  <option value="3" >3</option>
+                  <option value="2" >2</option>
+                  <option value="1" >1</option>
+                </select>
+                
+                <div>Biological Gender </div>
+                <label class="customradio">
+                  <input type="radio" name="gender" value="female" id="femaleRadBtn"/> Female
+                  <span class="radiomark"></span>
+                </label>
+                <label class="customradio">
+                  <input type="radio" name="gender" value="male" id="maleRadBtn"/> Male
+                  <span class="radiomark"></span>
+                </label>
+                <label class="customradio">
+                  <input type="radio" name="gender" value="other" id="otherRadBtn"/> Other
+                  <span class="radiomark"></span>
+                </label>
+                <div>Nationality : </div>
+                <select name="nationality" id="nationalityCmbBox">
+                  <option value="" selected>Choose</option>
+                </select>
+                <button onClick='submitClicked()' class="btn btn-success btn-medium floatright" style="margin-left:10px;">Submit</button>
+                <button onClick='skipClicked()' class="btn btn-danger btn-medium floatright">Skip</button>
+                <!-- <button type="submit" class="btn btn-danger btn-medium floatright">Submit</button> -->
+              </form>
+              <!-- end flexslider -->
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+
+    <div id="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="copyright">
+              <p>
+                <span>&copy; Intogen- All right reserved.</span>
+              </p>
+              <div class="credits">
+
+                Designed by Jaleh|Aalli|Yixin
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <!-- <script src="js/jquery.easing.1.3.js"></script> -->
+  <script src="js/bootstrap.js"></script>
+  <!-- <script src="js/jcarousel/jquery.jcarousel.min.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.fancybox-media.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/jquery.nivo.slider.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/jquery.ba-cond.min.js"></script>
+  <script src="js/jquery.slitslider.js"></script>
+  <script src="js/animate.js"></script> -->
+
+  <!-- Template Custom JavaScript File -->
+  <script src="js/custom.js"></script>
+  <script src="customJS/findYourType.js"></script>
+
+</body>
+
+</html>
