@@ -1,4 +1,4 @@
-# Intogen Frontend
+# Intogen Backend
 Libraries used:
 1. Node.js
 2. Express.js
