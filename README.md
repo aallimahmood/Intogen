@@ -20,3 +20,10 @@ How to run as localhost:
 Run "npm start" to start backend localhost
 
 Note: https://intogen-f-app.herokuapp.com/  This is a deployed link, i suggest to open this link to review the service
+
+
+Developers:
+
+Yixin Haung
+Jaleh Ghorbani
+Aalli Mahmood (aallimahmood5@gmail.com)
